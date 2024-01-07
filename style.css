@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&family=Merriweather&display=swap');
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    max-width: 1320px;
+}
+
+#banner{
+    
+    text-align: center;
+    height: 550px;
+    color: white;
+}
+
+.new-year{
+    padding-top: 150px;
+    background-image: url(./Images/Banner-Image.png);
+    height: 550px;
+    background-repeat: no-repeat;
+    font-size: 50px;
+}
+
+#holiday{
+    margin-top: 120px;
+    text-align: center;
+}
+
+#holiday h1{
+    color: #FF0000;
+    font-size: 88px;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+#holiday p{
+    color: #FF0000;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word
+}
+
+#holiday h3{
+    color: #070211;
+    font-size: 48px;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+#holiday img{
+    height: 500px;
+    width: 800px;
+}
+
+.join-now{
+    display: flex;
+    text-align: center;
+    background-image: url(./Images/Vectorrr.png);
+    margin-top: 120px;
+    padding: 30px;
+}
+
+.welcome{
+    text-align: left;
+    padding-top:100px;
+}
+
+.welcome h1{
+    color: white;
+    font-size: 64px;
+    font-family: Merriweather;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    word-wrap: break-word
+}
+
+.welcome p{
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word
+}
+
+.join-now img{
+    max-width:320px;
+    max-height: 465px;
+}
+
+.join-btn{
+    color: white;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: none;
+}
+
+.information{
+    text-align: center;
+    margin-top: 120px;
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 56px;
+    color: #070211;
+    background-color: rgb(229, 191, 197);
+    padding: 20px;
+}
+
+.text{
+    color: #FF0000;
+}
+
+.joining-btn{
+    color: white;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #FF0000;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.great-offers{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
