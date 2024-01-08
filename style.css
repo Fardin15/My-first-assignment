@@ -66,6 +66,7 @@ font-family: 'Merriweather', serif; */
     display: flex;
     text-align: center;
     background-image: url(./Images/Vectorrr.png);
+    background-position: center;
     margin-top: 120px;
     padding: 30px;
 }
@@ -139,6 +140,73 @@ font-family: 'Merriweather', serif; */
 
 .great-offers{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 120px;
+    
+}
+
+.best-offer{
+    text-align: left;
+    padding: 20px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.best-offer h5{
+    color: #FF0000;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.best-offer h4{
+    color: #070211;
+    font-size: 48px;
+    font-family: Merriweather;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.best-offer p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 32px;
+    word-wrap: break-word
+}
+
+
+.best-offer .best-offer-img img{
+    width: 100px;
+    height: 100px;
+    border-radius:9999px;
+    border: 15px #FF0000 solid;
+}
+
+.wish-img{
+    text-align: left;
+    padding: 20px,20px,20px,0px;
+    margin-top: 60px;
+}
+
+.great-offers .wish-img *{
+    margin-bottom: 10px;
+}
+
+.great-offers .wish-img h6{
+    color: #FF0000;
+    font-size: 48px;
+    font-family: Inter;
+    font-weight: 700;
+}
+
+.great-offers .wish-img p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 32px;
+    word-wrap: break-word
 }
