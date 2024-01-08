@@ -18,6 +18,7 @@ font-family: 'Merriweather', serif; */
     text-align: center;
     height: 550px;
     color: white;
+    margin: o,100px;
 }
 
 .new-year{
@@ -29,8 +30,9 @@ font-family: 'Merriweather', serif; */
 }
 
 #holiday{
-    margin-top: 120px;
+    margin: 50px,50px,0px,50px;
     text-align: center;
+    padding: 80px;
 }
 
 #holiday h1{
@@ -62,12 +64,15 @@ font-family: 'Merriweather', serif; */
     width: 800px;
 }
 
+#trd-section{
+    margin: 120px,100px,0px,100px;
+}
+
 .join-now{
     display: flex;
     text-align: center;
     background-image: url(./Images/Vectorrr.png);
     background-position: center;
-    margin-top: 120px;
     padding: 30px;
 }
 
@@ -244,6 +249,7 @@ font-family: 'Merriweather', serif; */
 
 .image-section{
     margin-top: 100px;
+    max-width: 1000px;
 }
 
 .image-section .rectangle1 img{
@@ -260,7 +266,7 @@ font-family: 'Merriweather', serif; */
 
 .image-section .rectangle2 img{
     height: 229px;
-    background: #FF0000; border-top-left-radius: 16px; border-top-right-radius: 16px; border-bottom-right-radius: 16px;
+    background: #FF0000; border-bottom-left-radius: 16px; border-bottom-right-radius: 16px; border-bottom-right-radius: 16px;
 }
 
 .our-portfolio{
