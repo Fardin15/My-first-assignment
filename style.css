@@ -303,6 +303,11 @@ font-family: 'Merriweather', serif; */
     max-width: 850px;
 }
 
+.gifts-images{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .best-gifts-one{
     display: grid;
     grid-template-columns: repeat(3,3fr);
@@ -313,4 +318,98 @@ font-family: 'Merriweather', serif; */
     display: grid;
     grid-template-columns: repeat(3,3fr);
     gap: 5px;
+}
+
+.subscribe{
+    margin-top: 100px;
+    background-color: rgb(255, 248, 240);
+    padding: 20px;
+}
+
+.email-logo{
+    text-align: center;
+}
+
+.email-logo *{
+    margin-bottom: 5px;
+}
+
+.email-logo img{
+    width: 80px;
+    height: 80px;
+}
+
+.email-logo h1{
+    color: #070211;
+    font-size: 48px;
+    font-family: Merriweather;
+    font-weight: 900;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+
+.email-logo p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 32px;
+    word-wrap: break-word;
+    padding: 30px;
+}
+
+#newsletter .subscribe form{
+    max-width: 400px;
+    margin-left: 400px;
+    display: flex;
+    
+}
+
+#newsletter .subscribe form input{
+    flex-grow: 1;
+    border: none;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding: 10px;
+    color: rgba(7, 2, 17, 0.30);
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 400;
+    outline: none;
+}
+
+#newsletter .subscribe form button{
+    background: #FF0000;  
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-size:18px ;
+    width: 200px;
+    border: none;
+}
+
+#newsletter .subscribe form button:hover{
+    cursor: pointer;
+}
+
+.footer-container{
+    background: #070211;
+    color: white;
+    font-size: 24px;
+}
+
+.footer-container .footer-main{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.footer-container .footer-main *{
+    margin-bottom: 5px;
+}
+
+.footer-container .footer-main .contact .sub-contact{
+   display: flex;
+   justify-content: space-between;
+   gap: 10px;
+   text-align: left;
 }
