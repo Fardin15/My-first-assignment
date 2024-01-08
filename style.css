@@ -272,6 +272,10 @@ font-family: 'Merriweather', serif; */
     padding-left: 20px;
 }
 
+.best-gifts *{
+    margin-bottom: 10px;
+}
+
 .best-gifts h6{
     color: #FF0000;
     font-size: 24px;
@@ -297,4 +301,16 @@ font-family: 'Merriweather', serif; */
     line-height: 32px; 
     word-wrap: break-word;
     max-width: 850px;
+}
+
+.best-gifts-one{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    gap: 5px;
+}
+
+.best-gifts-two{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    gap: 5px;
 }
