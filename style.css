@@ -10,7 +10,7 @@ font-family: 'Merriweather', serif; */
 
 .container{
     width: 100%;
-    max-width: 1320px;
+    align-items: center;
 }
 
 #banner{
@@ -23,7 +23,6 @@ font-family: 'Merriweather', serif; */
 .new-year{
     padding-top: 150px;
     background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url(./Images/Banner-Image.png);
-    width: 100%;
     height: 550px;
     background-repeat: no-repeat;
     font-size: 50px;
@@ -143,7 +142,6 @@ font-family: 'Merriweather', serif; */
     display: flex;
     justify-content: space-around;
     margin-top: 120px;
-    
 }
 
 .best-offer{
@@ -182,7 +180,7 @@ font-family: 'Merriweather', serif; */
 .best-offer .best-offer-img img{
     width: 100px;
     height: 100px;
-    border-radius:9999px;
+    border-radius:999px;
     border: 15px #FF0000 solid;
 }
 
@@ -210,4 +208,93 @@ font-family: 'Merriweather', serif; */
     font-weight: 400;
     line-height: 32px;
     word-wrap: break-word
+}
+
+#holidays-sale{
+    text-align: center;
+    margin-top: 100px;
+}
+#holidays-sale h6{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;  
+}
+
+#holidays-sale h1{
+    font-size: 72px;
+    font-family: Merriweather;
+    font-weight: 900;
+    color: #070211;
+}
+
+#holidays-sale .holidays{
+    color: #FF0000;
+}
+
+#holidays-sale p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 32px;
+    word-wrap: break-word;
+}
+
+.image-section{
+    margin-top: 100px;
+}
+
+.image-section .rectangle1 img{
+    vertical-align:text-bottom;
+    margin-left:800px;
+    display: flex;
+    width: 400px;
+    height: 400px;
+}
+
+.image-section .rectangle1 .img1{
+    margin-top: 500px;
+}
+
+.image-section .rectangle2 img{
+    height: 229px;
+    background: #FF0000; border-top-left-radius: 16px; border-top-right-radius: 16px; border-bottom-right-radius: 16px;
+}
+
+.our-portfolio{
+    margin-top: 100px;
+}
+
+.best-gifts{
+    text-align: left;
+    padding-left: 20px;
+}
+
+.best-gifts h6{
+    color: #FF0000;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word
+}
+
+.best-gifts h1{
+    color: #070211; 
+    font-size: 48px; 
+    font-family: Merriweather; font-weight: 900; text-transform: capitalize; word-wrap: break-word;
+    width: 560px;
+    height: 60px;
+}
+
+.best-gifts p{
+    width: 100%; 
+    color: rgba(7, 2, 17, 0.60); 
+    font-size: 20px; 
+    font-family: Inter;
+    font-weight: 400; 
+    line-height: 32px; 
+    word-wrap: break-word;
+    max-width: 850px;
 }
