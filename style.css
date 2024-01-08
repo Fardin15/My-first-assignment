@@ -413,3 +413,39 @@ font-family: 'Merriweather', serif; */
    gap: 10px;
    text-align: left;
 }
+
+.footer-img{
+    position: relative; align-items:center;
+    display: flex;
+    padding-left: 500px;
+    gap: 5px;
+}
+
+.footer-end{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    text-align: left;
+}
+
+.footer-end p{
+    color: white; 
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+
+.footer-end button{
+    background: #070211;
+    color: white;
+    border: none;
+    font-size: 24px;
+     font-family: Inter; 
+     font-weight: 500; 
+     word-wrap: break-word
+}
+
+.footer-end button:hover{
+    cursor: pointer;
+}
